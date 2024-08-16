@@ -22,4 +22,29 @@ console.log(booleanIsLoggedIn);
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
+// console.log(stringNumber);
+// console.log(stringNumber);
+// console.log(3+4*5%3)
+
+console.log(2>=1);
+const neroes=["shaktiman","naagraj","doga"]
+
+let myObj = {
+    name: "hitesh",
+    age:22.
+}
+
+const myFunction=function(){
+    console.log("Hello World");
+
+}
+
+let user={
+    email:"user@gmail.com",
+    upi:"user@ybl",
+}
+let userTwo=user
+
+userTwo.email="hitesh@google.com"
+console.log(user.email);
+console.log(userTwo.email);
